@@ -12,13 +12,10 @@ int main()
     for(j=0;6.28>j;j+=0.07)
     for(i=0;6.28>i;i+=0.02)
     {
-      float c=sin(i),d=cos(j),e=
- sin(A),f=sin(j),g=cos(A),h=d+2,D=1/(c*
- h*e+f*g+5),l=cos      (i),m=cos(B),n=s\
-in(B),t=c*h*g-f*        e;int x=40+30*D*
-(l*h*m-t*n),y=            12+15*D*(l*h*n
-+t*m),o=x+80*y,          N=8*((f*e-c*d*g
- )*m-c*d*e-f*g-l        *d*n);
+      float c=sin(i), d=cos(j), e=sin(A), f=sin(j), g=cos(A), h=d+2, D=1/(c*h*e+f*g+5), l=cos(i), m=cos(B), n=s\
+in(B),t=c*h*g-f*e;  //WTF is this? Moving it together breaks the damn thing, but my logic says it's alright for it has a comma... "n=s\in(B)"
+//Has to have this specific spacing and junk too... Why?
+      int x=40+30*D*(l*h*m-t*n),y=12+15*D*(l*h*n+t*m),o=x+80*y,N=8*((f*e-c*d*g)*m-c*d*e-f*g-l*d*n);
       if(22>y&&y>0&&x>0&&80>x&&D>z[o])
       {
         z[o]=D;;;b[o]=".,-~:;=!*#$@"[N>0?N:0];
