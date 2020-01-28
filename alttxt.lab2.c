@@ -28,3 +28,5 @@ in(B),t=c*h*g-f*e;
   A+=0.04;B+=0.02;
   } //End of for(;;)
 } //End of main
+
+https://gist.github.com/gcr/1075131:
